@@ -1,3 +1,9 @@
-.title{
-    background-color: red;
+.header{
+    width:100%-20px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 15px;
+    border: 10px solid black;
+    margin: 0;
+    text-align: center;
 }
