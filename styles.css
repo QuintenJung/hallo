@@ -1,3 +1,8 @@
+.title{
+    background-color: red;
+    height: 50px;
+    width: 100%;
+}
 .fish{
     font-size: 400px;
     background-color: #FA8072;
@@ -20,7 +25,7 @@
     margin: 0;
 
 }
-body{
+.fishbody{
     margin: 0;
     padding: 0;
 }
