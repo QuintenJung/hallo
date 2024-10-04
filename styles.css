@@ -41,6 +41,11 @@
 }
 button{
     width: 80%;
-    margin: 10%;
     height: 50px;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.buttontxt{
+    text-align: center;
+    font-size: larger;
 }
