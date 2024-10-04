@@ -17,7 +17,7 @@
 	align-content: stretch;
 }
 .div1{
-    height: 500px;
+    height: 1000px;
     width: 25%;
     background-color: gray;
     border-radius: 15px;
@@ -42,8 +42,10 @@
 button{
     width: 80%;
     height: 50px;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 10%;
+    border-radius: 15px;
+    background-color: #AAAAAA;
 }
 .buttontxt{
     text-align: center;
