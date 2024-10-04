@@ -6,4 +6,24 @@
     margin: 0;
     text-align: center;
     font-size: 25px;
+    margin-bottom: 30px;
+}
+.mainfb{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: stretch;
+}
+.div1{
+    height: 500px;
+    width: 25%;
+    background-color: gray;
+    border-radius: 15px;
+    border: 10px solid black;
+}
+.img1{
+    width: 80%;
+    margin: 10%;
 }
