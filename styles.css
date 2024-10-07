@@ -29,7 +29,7 @@
 }
 .text1{
     width: 80%;
-    margin: 10%;
+    margin: 0;
 }
 .fb{
 	display: flex;
@@ -45,6 +45,7 @@ button{
     margin-top: 25px;
     margin-left: 10%;
     border-radius: 15px;
+    border-color: black;
     background-color: #AAAAAA;
 }
 .buttontxt{
