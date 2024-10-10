@@ -78,6 +78,7 @@ button{
     border-radius: 15px;
     border: 10px solid black;
     margin: auto;
+    height: 350px;
 }
 label{
     margin: 20px 10px 20px 10px;
@@ -87,4 +88,7 @@ input{
 }
 select{
     margin: 20px 10px 20px 10px;
+}
+.submit{
+    margin: auto;
 }

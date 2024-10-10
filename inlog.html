@@ -10,17 +10,31 @@
     <header class="header2">
         <p>text</p>
     </header>
+
     <main class="formmain">
-        <form>
+        <form action="">
             <div class="fb2">
                 <label for="">firstname</label>
                 <label for="">lastname</label>
                 <label for="">terms</label>
                 <input type="text" name="firstname" id="firstname" required>
                 <input type="text" name="lastname" id="lastname" required>
-                <input type="checkbox" name="terms" id="terms">
+                <input type="checkbox" name="terms" id="terms" onclick="myFunction()">
             </div>
+            <p id="text" style="display:none"><input type="submit" class="submit"></p>
         </form>
     </main>
+
+    <script>
+        function myFunction() {
+          var checkBox = document.getElementById("terms");
+          var text = document.getElementById("text");
+          if (checkBox.checked == true){
+            text.style.display = "block";
+          } else {
+             text.style.display = "none";
+          }
+        }
+    </script>
 </body>
 </html> 
