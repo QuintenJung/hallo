@@ -108,3 +108,18 @@ input[type=submit]:hover{
 .header_text_inlog{
     margin-left: 150px;
 }
+.fbprojecten{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+.textprojecten{
+    margin: 5%;
+    width: 90%;
+    background-color: gray;
+    border: 10px solid black;
+    border-radius: 15px;
+}
