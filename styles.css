@@ -159,3 +159,37 @@ header a{
     width: 20%;
     height: 100px;
 }
+.vidio{
+    background-color: gray;
+    border: 10px solid black;
+    border-radius: 15px;
+}
+.vidio2{
+    background-color: gray;
+    border: 10px solid black;
+    border-radius: 15px;
+    width: 90%;
+    padding: 0;
+    margin: 4%;
+    height: 500px;
+}
+.vidio_footer{
+    background-color: gray;
+    border: 10px solid black;
+    border-radius: 15px;
+    
+}
+tr{
+    width: 90%;
+}
+.vraag, .antwoord{
+    
+}
+.vraag{
+    color: red;
+    border: 5px solid black;
+}
+.antwoord{
+    color: blue;
+    border: 5px solid black;
+}
