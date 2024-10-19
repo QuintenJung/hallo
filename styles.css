@@ -6,21 +6,6 @@ header{
     margin-bottom: 30px;
     height: 100px;
 }
-.mainfb{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
-	align-items: stretch;
-	align-content: stretch;
-    height: auto;
-}
-.div1{
-    width: 25%;
-    background-color: gray;
-    border-radius: 15px;
-    border: 10px solid black;
-}
 .img1{
     width: 80%;
     margin: 10% 10% 0 10%;
@@ -182,8 +167,11 @@ header a{
 tr{
     width: 90%;
 }
+table{
+    width: 100%;
+}
 .vraag, .antwoord{
-    
+    width: 50%;
 }
 .vraag{
     color: red;
@@ -192,4 +180,45 @@ tr{
 .antwoord{
     color: blue;
     border: 5px solid black;
+}
+
+html[id=index] main{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	align-content: stretch;
+    height: auto;
+    section1, section2, section3{
+        width: 25%;
+        background-color: gray;
+        border-radius: 15px;
+        border: 10px solid black;
+    }
+    section1 img, section1 p{
+        width: 80%;
+        margin: 10%;
+    }
+    section2 img{
+        width: 80%;
+        margin: 10% 10% 0 10%;
+        height: 50px;
+    }
+    section2 p{
+        width: 80%;
+        margin: 10% 10% 0 10%;
+    }
+    section3{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: stretch;
+        p{
+            text-align: center;
+            font-size: larger;
+        }
+    }
 }
