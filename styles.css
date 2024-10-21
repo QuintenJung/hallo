@@ -242,3 +242,80 @@ html[id=projecten] main{
         margin-left: 10px;
     }
 }
+html[id=me] main{
+    row1, row2, row3{
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 0 25px 0;
+        p{
+            background-color: gray;
+            border: 10px solid black;
+            border-radius: 15px;
+            margin: 0;
+            width: 70%;
+        }
+        img{
+            background-color: gray;
+            border: 10px solid black;
+            border-radius: 15px;
+            width: 20%;
+            height: 100px;
+        }
+    }
+}
+html[id=interview]{
+    main{
+        background-color: gray;
+        border: 10px solid black;
+        border-radius: 15px;
+        img{
+            background-color: gray;
+            border: 10px solid black;
+            border-radius: 15px;
+            width: 90%;
+            padding: 0;
+            margin: 4%;
+            height: 500px;
+        }
+    }
+    footer{
+        background-color: gray;
+        border: 10px solid black;
+        border-radius: 15px;
+    }
+}
+html[id=social] main{
+    section{
+        margin: 0 5% 5% 5%;
+        border: 10px solid black;
+        border-radius: 15px;
+        background-color: gray;
+        padding: 10px;
+        height: 50px;
+        img{
+            float: left;
+            margin-right: 10px;
+            width: 50px;
+        }
+        a{
+            margin:25px 0 25px 0;
+        }
+    }
+}
+html[id=inlog] main{
+    width: 50%;
+    background-color: gray;
+    border-radius: 15px;
+    border: 10px solid black;
+    margin: auto;
+    height: 400px;
+    div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;  
+        align-content: center;
+        height: 300px;
+    }
+}
