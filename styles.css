@@ -53,6 +53,10 @@ header p{
 }
 header a{
     float: left;
+    img{
+        width: 100px;
+        margin-left: 10px;
+    }
 }
 .vraag, .antwoord{
     width: 50%;
