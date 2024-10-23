@@ -6,14 +6,16 @@ header{
     margin-bottom: 30px;
     height: 100px;
 }
-button{
-    width: 80%;
-    height: 50px;
-    margin-top: 25px;
-    margin-left: 10%;
+h1{
+    width: 75%;
+    text-align: center;
+    height: 40px;
+    margin: 10px auto;
     border-radius: 15px;
-    border-color: black;
-    background-color: #AAAAAA;
+    border: 3px solid black;
+    padding-top: 5px ;
+    background-color: #AAAAAA; 
+    font-size:25px;
 }
 label, input{
     margin: 20px 0 20px 0;
@@ -77,30 +79,30 @@ html[id=index] main{
 	align-items: stretch;
 	align-content: stretch;
     height: auto;
-    section1, section2, section3{
+    .section1, .section2, .section3{
         width: 25%;
         background-color: gray;
         border-radius: 15px;
         border: 10px solid black;
     }
-    section1 img, section1 p{
+    .section1 img, .section1 p{
         width: 80%;
         margin: 10%;
     }
-    section1 img{
+    .section1 img{
         border: 10px solid black;
         border-radius: 50%;
     }
-    section2 img{
+   .section2 img{
         width: 80%;
         margin: 10% 10% 0 10%;
         height: 50px;
     }
-    section2 p{
+    .section2 p{
         width: 80%;
         margin: 10% 10% 0 10%;
     }
-    section3{
+   nav{
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
