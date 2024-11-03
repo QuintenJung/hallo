@@ -13,29 +13,30 @@
     </header>
 
     <main>
-        <form>
+        <form action="index.html">
             <div>
-                <label>first name</label>
-                <label>last name</label>
+                <label>first name*</label>
+                <label>last name*</label>
                 <label>age</label>
-                <label>terms</label>
+                <label>terms*</label>
                 <input type="text" name="firstname" id="firstname" required value="first name">
                 <input type="text" name="lastname" id="lastname" required value="last name">
-                <input type="date" name="age" id="age" required>
+                <input type="date" name="age" id="age">
                 <input type="checkbox" name="terms" id="terms" onclick="myFunction()">
             </div>
-            <p id="text" style="display:none"><input type="submit"></p>
+            <p>*required</p>
+            <input id="submit" style="display:none" type="submit">
         </form>
     </main>
 
     <script>
         function myFunction() {
           var checkBox = document.getElementById("terms");
-          var text = document.getElementById("text");
+          var submit = document.getElementById("submit");
           if (checkBox.checked == true){
-            text.style.display = "block";
+            submit.style.display = "block";
           } else {
-            text.style.display = "none";
+            submit.style.display = "none";
           }
         }
     </script>

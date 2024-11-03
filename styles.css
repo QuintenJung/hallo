@@ -18,37 +18,6 @@ h1{
     font-size:25px;
     text-decoration:none ;
 }
-label, input{
-    margin: 20px 0 20px 0;
-    height: 20px;
-    border: 0;
-    padding: 0;
-}
-label{
-    text-align: right;
-    width: 25%;
-    margin-right: 5%;
-    height: 20px;
-    padding: 5px 0 5px 0;
-}
-input{
-    width: 60%;
-    margin-right: 5%;
-    margin-left: 5%;
-    padding: 5px;
-}
-input[type=checkbox]{
-    height: 30px;
-    width: 30px;
-}
-input[type=submit]{
-    width: 50%;
-    margin: 30px 25% 0 25%;
-    background-color: rgb(0, 255, 0);
-}
-input[type=submit]:hover{
-    background-color: rgb(0, 186, 0);
-}
 header p{
     padding: 0;
     margin: 21px 0 0 150px;
@@ -214,7 +183,7 @@ html[id=inlog] main{
     border-radius: 15px;
     border: 10px solid black;
     margin: auto;
-    height: 400px;
+    height: 420px;
     div{
         display: flex;
         flex-direction: column;
@@ -223,5 +192,47 @@ html[id=inlog] main{
         align-items: baseline;  
         align-content: center;
         height: 300px;
+        label, input{
+            margin: 20px 0 20px 0;
+            height: 20px;
+            border: 0;
+            padding: 0;
+        }
+        input{
+            border-radius: 5px;
+            width: 60%;
+            margin-right: 5%;
+            margin-left: 5%;
+            padding: 5px;
+        }
+        label{
+            text-align: right;
+            width: 25%;
+            margin-right: 5%;
+            height: 20px;
+            padding: 5px 0 5px 0;
+        }
+        input[type=checkbox]{
+            height: 30px;
+            width: 30px;
+        }
+    }
+    p{
+        text-align: right;
+        width: 30%;
+        margin-bottom: 0;
+    }
+    input{
+        height: 50px;
+        border-radius: 50px;
+    }
+    input[type=submit]{
+        width: 50%;
+        margin: 0px 25% 0 25%;
+        background-color: rgb(0, 255, 0);
+    }
+    input[type=submit]:hover{
+        background-color: rgb(0, 186, 0);
     }
 }
+
