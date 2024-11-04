@@ -79,7 +79,7 @@ html[id=index] main{
     }
 }
 html[id=projecten] main{
-    section_left, section_right{
+    .section_left, .section_right{
         display: flex;
         width: 90%;
         background-color: #AFBEC5;
