@@ -33,17 +33,6 @@ header a{
         margin-left: 10px;
     }
 }
-.vraag, .antwoord{
-    width: 50%;
-}
-.vraag{
-    color: red;
-    border: 5px solid black;
-}
-.antwoord{
-    color: blue;
-    border: 5px solid black;
-}
 html[id=index]{
     main{
         display: flex;
@@ -131,7 +120,7 @@ html[id=interview]{
         background-color: var(--background);
         border: 10px solid black;
         border-radius: 15px;
-        img{
+        /* img{
             background-color: var(--background);
             border: 10px solid black;
             border-radius: 15px;
@@ -139,18 +128,7 @@ html[id=interview]{
             padding: 0;
             margin: 4%;
             height: 500px;
-        }
-    }
-    footer{
-        background-color: var(--background);
-        border: 10px solid black;
-        border-radius: 15px;
-        table{
-            width: 100%;
-            tr{
-                width: 90%;
-            }
-        }
+        } */
     }
 }
 html[id=social] main{
